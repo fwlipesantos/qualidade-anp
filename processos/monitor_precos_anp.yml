@@ -1,0 +1,8 @@
+nome: monitor_precos_anp
+finalidade: avisar quando a carga de precos da ANP estiver atrasada
+origem:
+  - oracle.controle_arquivo
+destino:
+  - alerta no telegram
+janela: a cada hora, alerta se a ultima carga com sucesso tiver mais de 8 dias
+responsavel: Felipe Santos
